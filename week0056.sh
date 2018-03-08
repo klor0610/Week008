@@ -2,7 +2,7 @@
 #week 5 & 6 script review premidterm
 
 #shows kernel log
-/var/log/kern.log | less
+cat /var/log/kern.log | less
 #kernel boot parameters
 cat /proc/cmdline
 #find grub.cfg
