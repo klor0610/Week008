@@ -18,8 +18,7 @@ lsblk
 #input content into file
 cd /media/tmp2
 echo "Hello World" > ~/hello12.txt
-#unmount image (had to kill mount point before unmounting)
-sudo fuser -km /media/tmp2
+cd ~
 sudo umount /media/tmp2
 #look through file with output set to hex and ASCII
 hexdump -C ./12MB.img | less
