@@ -16,9 +16,9 @@ diff week_002.txt week_022.txt
 #lower case search
 grep -i m  week_002.txt
 echo "hit enter to continue"
-read
+read enter
 #sort both files
 sort -d week_002.txt
 echo "press enter to see the 2nd file sorted"
-read
+read enter
 sort -d week_022.txt
