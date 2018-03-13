@@ -5,7 +5,7 @@ echo "blah blah" > /dev/null
 cd /dev
 ls -l | less
 echo "press enter to see block devices"
-reach enter
+read enter
 #shows block devices and file systems
 lsblk --fs
 sleep 5s
