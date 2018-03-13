@@ -9,7 +9,7 @@ cat /proc/cmdline
 cd /boot
 ls
 cd grub
-grub.cfg | less
+less grub.cfg
 #generates a config file for grub.cfg
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 #install grub onto your usb
